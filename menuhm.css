@@ -85,14 +85,17 @@
 .toggler:checked ~ .menu > div > div{
 	opacity: 1;
 }
+
+
 .menu{
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100vw;
-	heigh: 100vh;
+	height: 100vh;
 	visibility: hidden; 
 	transition: .6s;
+	z-index: 2;
 
 }
 
@@ -129,7 +132,7 @@
 }
 
 .menu > div > div > ul > li > a{
-	text-decoration: none;e
+	text-decoration: none;
 	margin: .5rem;
 	display: inline-block;
 	font-size: 1.2rem;
